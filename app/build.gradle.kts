@@ -4,7 +4,16 @@
 
 plugins {
     id("buildlogic.java-application-conventions")
+    'java-library'
 }
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+version = "1.2.1"
 
 dependencies {
     implementation("org.apache.commons:commons-text")
