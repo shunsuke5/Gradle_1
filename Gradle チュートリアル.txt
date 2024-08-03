@@ -3,5 +3,4 @@ Gradle チュートリアル
 ・
 
 Building Java & JVM projects の
-Declaring your source files via source sets　の
-図の下から
+Managing your dependencies から
