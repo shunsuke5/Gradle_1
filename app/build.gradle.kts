@@ -15,9 +15,14 @@ java {
 
 version = "1.2.1"
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     implementation("org.apache.commons:commons-text")
     implementation(project(":utilities"))
+    implementation("org.hibernated:hibernate-core:3.6.7.Final")
 }
 
 application {
